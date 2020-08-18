@@ -1,0 +1,28 @@
+.cheese-layer {
+    background-image: url("../public/Cheese_Background3.png");
+     -webkit-animation: 200s linear 0s infinite bp;
+             animation: 200s linear 0s infinite bp;
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  @-webkit-keyframes bp {
+    from {
+      background-position: 675px 0;
+    }
+  
+    to {
+      background-position: 0 675px;
+    }
+  }
+  
+  @keyframes bp {
+    from {
+      background-position: 675px 0;
+    }
+  
+    to {
+      background-position: 0 675px;
+    }
+  }

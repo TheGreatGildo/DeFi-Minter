@@ -1,0 +1,178 @@
+@charset "utf-8";
+@import "./normalize.css";
+@import "../node_modules/bulma/bulma.sass";
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@358;415&display=swap");
+
+* {
+  font-family: "Roboto Mono", monospace !important;
+  // cursor: url('../assets/maus.png'), pointer;
+}
+
+body {
+  height: 100%;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 200% 200%;
+  min-height: 100vh;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+// deposit  box
+
+
+
+.boxx {
+  width: 80vw;
+  max-width: 600px;
+  padding: 3%;
+  background-color: white;
+  border-radius: 16px;
+  
+  -webkit-box-shadow: 2px 3px 3px 0.4px #680d6dd5;
+  -moz-box-shadow: 2px 2px 3px 0.4px #680d6dd5;
+  
+}
+
+
+
+//LEFT DEPOSIT BOX
+
+.containa {
+  padding: 190px 50px 50px;
+  height: 100vh;
+  width: 100% !important;
+}
+
+
+//DEPOSIT BOX
+
+.row-dai {
+  text-align: center;
+  padding: 3px 0;
+  margin: 0 auto;
+}
+
+.from {
+  font-size: 1.2rem;
+  color: #221d0c;
+  text-align: center;
+  margin-right: 3%;
+}
+
+.form-label {
+  font-size: 2.2rem;
+}
+
+.bal-box {
+  margin: 10px auto;
+  padding-left: 20px;
+}
+
+
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.field-input {
+  border: none;
+  height: 30px;
+  width: 250px;
+  font-size: 2rem;
+  color: #221d0c;
+  border-bottom: 1px solid #221d0c;
+  position: relative;
+  top: 10px;
+}
+
+
+.errors {
+  color: red;
+  font-size: 01rem;
+  font-family: Arial !important;
+}
+
+
+
+
+
+.spacer {
+  margin: 0 10px;
+}
+
+.field-container {
+  overflow-x: hidden;
+  display: flex;
+  justify-self: start;
+  justify-content: center;
+}
+
+.days-fixer {
+  padding-left: 6px;
+  color: #221d0c;
+}
+
+.dai-fixer {
+  padding-left: 17px;
+  color: #221d0c;
+}
+
+
+.onboarding-box {
+  background-color: white;
+  border-radius: 16px 16px 10px 6px;
+  border: 4px solid #B89A23;
+  -webkit-box-shadow: 1px -1px 3px 0.4px #221d0ca9;
+  -moz-box-shadow: 1px -2px 3px 0.4px #221d0ca8;
+  border-bottom: 1px solid #B89A23;
+  border-left: 1.5px solid #B89A23;
+  margin: 2%;
+  
+}
+.wallets {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.wallet-icon {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 140px;
+  width: 140px;
+  cursor: pointer;
+  &:hover {
+    background: rgba(255, 255, 255, 0.068);
+    border-radius: 10px;
+  }
+  margin: 0 auto 10px;
+}
+
+.wallets.box {
+  width: 90%;
+  margin: auto;
+}
+
+.mm-spacer {
+  margin-bottom: -2px !important;
+}
+
+.column.magic {
+  border-radius: 16px 16px 10px 6px;
+  border: 0.1px solid #00000054;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+
+  margin: 5px 15px 15px;
+  padding: 1%;
+}

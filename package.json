@@ -1,0 +1,42 @@
+{
+  "name": "web3-react-example",
+  "scripts": {
+    "start": "next",
+    "build": "next build && next export"
+  },
+  "dependencies": {
+    "@0x/contract-addresses": "^4.11.0",
+    "@0x/contract-wrappers": "^13.8.0",
+    "@0x/utils": "^5.5.1",
+    "@ethersproject/contracts": "^5.0.2",
+    "@ethersproject/providers": "^5.0.2",
+    "@ethersproject/units": "^5.0.1",
+    "@web3-react/abstract-connector": "latest",
+    "@web3-react/authereum-connector": "latest",
+    "@web3-react/core": "latest",
+    "@web3-react/fortmatic-connector": "latest",
+    "@web3-react/frame-connector": "latest",
+    "@web3-react/injected-connector": "latest",
+    "@web3-react/ledger-connector": "latest",
+    "@web3-react/network-connector": "latest",
+    "@web3-react/portis-connector": "latest",
+    "@web3-react/squarelink-connector": "latest",
+    "@web3-react/torus-connector": "latest",
+    "@web3-react/trezor-connector": "latest",
+    "@web3-react/walletconnect-connector": "latest",
+    "@web3-react/walletlink-connector": "latest",
+    "bulma": "^0.9.0",
+    "next": "^9.2.1",
+    "next-images": "^1.4.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-hook-form": "^6.2.0",
+    "react-lottie": "^1.2.3",
+    "react-spring": "^8.0.27",
+    "styled-components": "^5.1.1",
+    "swr": "^0.3.0",
+    "swr-eth": "^0.1.2",
+    "typescript": "^3.7.5",
+    "web3": "^1.2.11"
+  }
+}
